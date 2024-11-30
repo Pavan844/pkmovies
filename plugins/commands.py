@@ -74,7 +74,7 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 👋"
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
-        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>Deendayal Files Bot</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
+        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>PK Files Bot</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
         await m.edit_text("⏳")
         await asyncio.sleep(0.5)
@@ -275,7 +275,7 @@ async def start(client, message):
                                 InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}'),
                             ],
                             [
-                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Deendayal_dhakad') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/pkmovies4u') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -294,7 +294,7 @@ async def start(client, message):
                                 InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}'),
                             ],
                             [
-                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Deendayal_dhakad') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/pkmovies4u') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -365,7 +365,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Gᴇᴛ Fɪʟᴇ..🍁", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")
             ],[
-                InlineKeyboardButton("🏃..Bᴀᴄᴋ Tᴏ Gʀᴏᴜᴘ", url="https://t.me/+uABLEyE-TJEyODg1")
+                InlineKeyboardButton("🏃..Bᴀᴄᴋ Tᴏ Gʀᴏᴜᴘ", url="https://t.me/PKkannadamovies")
             ]]
             await message.reply_photo(
                 photo="https://graph.org/file/6928de1539e2e80e47fb8.jpg",
@@ -483,7 +483,7 @@ async def start(client, message):
                        InlineKeyboardButton("⚡ Hᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⚡", url=HOW_TO_VERIFY)
                    ]]
                    l = await message.reply_text(
-                   text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 24 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote>\n\n🎯 IF YOU ARE HAVING ANY PROBLEM WITH VERIFICATION SEND SCREENSHOT SCREEN RECORDING SHOWING THE PROBLEM TO @Contact_Deendayal_bot AND ASK FOR HELP.\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PRIMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
+                   text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 24 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote>\n\n🎯 IF YOU ARE HAVING ANY PROBLEM WITH VERIFICATION SEND SCREENSHOT SCREEN RECORDING SHOWING THE PROBLEM TO @Pkmoviessupportbot AND ASK FOR HELP.\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PRIMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
                    protect_content=False,
                    reply_markup=InlineKeyboardMarkup(btn)
                    )
@@ -501,7 +501,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Deendayal_dhakad') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/pkmovies4u') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
@@ -566,7 +566,7 @@ async def start(client, message):
                         InlineKeyboardButton("⚡ Hᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⚡", url=HOW_TO_VERIFY)
                    ]]
                    l = await message.reply_text(
-                       text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 24 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote>\n\n🎯 IF YOU ARE HAVING ANY PROBLEM WITH VERIFICATION SEND SCREENSHOT SCREEN RECORDING SHOWING THE PROBLEM TO @Contact_Deendayal_bot AND ASK FOR HELP.\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PRIMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नही है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
+                       text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 24 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote>\n\n🎯 IF YOU ARE HAVING ANY PROBLEM WITH VERIFICATION SEND SCREENSHOT SCREEN RECORDING SHOWING THE PROBLEM TO @Pkmoviessupportbot AND ASK FOR HELP.\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PRIMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नही है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
                        protect_content=False,
                        reply_markup=InlineKeyboardMarkup(btn)
                    )
@@ -583,7 +583,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Deendayal_dhakad') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/pkmovies4u') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
@@ -632,7 +632,7 @@ async def start(client, message):
               InlineKeyboardButton("⚡ Hᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⚡", url=HOW_TO_VERIFY)
            ]]
            l = await message.reply_text(
-            text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 24 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote>\n\n🎯 IF YOU ARE HAVING ANY PROBLEM WITH VERIFICATION SEND SCREENSHOT SCREEN RECORDING SHOWING THE PROBLEM TO @Contact_Deendayal_bot AND ASK FOR HELP.\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PRIMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
+            text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 24 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote>\n\n🎯 IF YOU ARE HAVING ANY PROBLEM WITH VERIFICATION SEND SCREENSHOT SCREEN RECORDING SHOWING THE PROBLEM TO @Pkmoviessupportbot AND ASK FOR HELP.\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PRIMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
             protect_content=False,
             reply_markup=InlineKeyboardMarkup(btn)
            )
@@ -650,7 +650,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Deendayal_dhakad') #Don't change anything without contacting me https://t.me/Sorry_Sorry_Galti_Ho_Gai
+              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/pkmovies4u') #Don't change anything without contacting me https://t.me/Sorry_Sorry_Galti_Ho_Gai
              ]
             ]
         )
