@@ -12,7 +12,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
+SESSION = environ.get('SESSION', 'Mediaf_search')
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
@@ -21,16 +21,16 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/56b5deb73f3b132e2bb73.jpg https://graph.org/file/5303692652d91d52180c2.jpg https://graph.org/file/425b6f46efc7c6d64105f.jpg https://graph.org/file/876867e761c6c7a29855b.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/6f72ad58694dec7b55f63.jpg https://telegra.ph/file/1cb608114ad9671c27637.jpg https://telegra.ph/file/b283840fb96ee65267ca6.jpg https://telegra.ph/file/eee5559d97c23bfcfba4b.jpg https://telegra.ph/file/9bd7eafe1b98fc77c1355.jpg https://telegra.ph/file/9924ec3bcd89f676989cc.jpg https://telegra.ph/file/cc48a27960aa981c7b9db.jpg https://telegra.ph/file/757b0ccb2e2c707f18efd.jpg https://telegra.ph/file/f38426c5d8cb18cbc4672.jpg https://telegra.ph/file/e0bb38c399fdc51e88fea.jpg https://telegra.ph/file/89b8404415a2979e1df54.jpg https://telegra.ph/file/57014cde9d2ab03726c9a.jpg https://telegra.ph/file/e783aef5e8988519ad560.jpg https://telegra.ph/file/539be50812560b70495c2.jpg https://telegra.ph/file/d81f0dd0abfcf5bfea8f1.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/60e8a622b14796e4448ce.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg'))
-CODE = (environ.get('CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg'))
+CODE = (environ.get('CODE', 'https://envs.sh/Yoy.jpg'))
 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6646028262').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6059507751').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001881877723').split()] #Channel id for auto indexing ( make sure bot is admin )
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001970548842')) #Log channel id ( make sure bot is admin )
 DEENDAYAL_MOVIE_UPDATE_CHANNEL = int(environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL', '-1001970548842')) #Notification of those who verify will be sent to your channel. Enter the ID of the channel you want to send notification to here.
@@ -57,20 +57,20 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 24)) # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002370988072')) #Log channel id ( make sure bot is admin )
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Deenu_dhakad') # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/howtoopenlinkf') # How to open tutorial link for verification
 
 # Shortner 
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '820b18ededb2ed6cf4de90d828e900add9a1a60d')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Deenu_dhakad') # Tutorial video link for opening shortlink website 
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopenlinkf') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 #Channel & Group link 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+kF6kYm_7o_wxM2E1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Deendayal_dhakad')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Sorry_Sorry_Galti_Ho_Gai')
-DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/Sorry_Sorry_Galti_Ho_Gai')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/pkkannadamovies')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/pkmovies4u')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Pkmoviessupportbot')
+DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/Pkmovies4u')
 
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -84,8 +84,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True)) # True if you want no
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Deendayal_dhakad')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
+MSG_ALRT = environ.get('MSG_ALRT', 'pkmovies')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/pkbotssupport1') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
