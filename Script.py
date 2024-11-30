@@ -9,8 +9,8 @@ class script(object):
 </b>"""
 
     ABOUT_TXT = """<b>╭────[ MY ᴅᴇᴛᴀɪʟꜱ ]────⍟
-├⍟ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Deendayal_dhakad'>Deendayal_dhakad</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Sorry_Sorry_Galti_Ho_Gai'>जय श्री राम</a> 
+├⍟ Mʏ Nᴀᴍᴇ : <a href='https://t.me/pkmovies'>PK MOVIES</a>
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/PASCI55'>ಜಯ ಶ್ರೀ ರಾಮ್</a> 
 ├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -27,7 +27,7 @@ class script(object):
 ▫ 𝟸𝟺x𝟽 sᴇʀᴠɪᴄᴇs ᴀᴠᴀɪʟᴀʙʟᴇ.</b>"""
 
     
-    STATUS_TXT = """<b>╭────[ Deendayal_dhakad ]────⍟
+    STATUS_TXT = """<b>╭────[ PKMOVIES ]────⍟
 ├⍟ Tᴏᴛᴀʟ Fɪʟᴇs : <code>{}</code>
 ├⍟ Tᴏᴛᴀʟ Usᴇʀs : <code>{}</code>
 ├⍟ Tᴏᴛᴀʟ Cʜᴀᴛs : <code>{}</code>
@@ -57,7 +57,7 @@ Nᴀᴍᴇ - {}
 ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
 ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇǫᴜᴇꜱᴛ ᴀɢᴀɪɴ."""
 
-    CUDNT_FND = """<b>𝑆𝑝𝑒𝑙𝑙𝑖𝑛𝑔 𝑀𝑖𝑠𝑡𝑎𝑘𝑒 𝐵𝑟𝑜 ‼️\n𝐷𝑜𝑛'𝑡 𝑊𝑜𝑟𝑟𝑦 😊 𝐶ℎ𝑜𝑜𝑠𝑒 𝑇ℎ𝑒 𝐶𝑜𝑟𝑟𝑒𝑐𝑡 𝑂𝑛𝑒 𝐵𝑒𝑙𝑜𝑤 👇\n\n<blockquote>नीचे दिए गए विकल्पों में से movie के नाम की सही Spelling चुनें 👇</blockquote></b>"""
+    CUDNT_FND = """<b>𝑆𝑝𝑒𝑙𝑙𝑖𝑛𝑔 𝑀𝑖𝑠𝑡𝑎𝑘𝑒 𝐵𝑟𝑜 ‼️\n𝐷𝑜𝑛'𝑡 𝑊𝑜𝑟𝑟𝑦 😊 𝐶ℎ𝑜𝑜𝑠𝑒 𝑇ℎ𝑒 𝐶𝑜𝑟𝑟𝑒𝑐𝑡 𝑂𝑛𝑒 𝐵𝑒𝑙𝑜𝑤 👇\n\n<blockquote>ಕೆಳಗೆ ನೀಡಲಾದ ಆಯ್ಕೆಗಳಿಂದ movie ಸರಿಯಾದ ಹೆಸರು Spelling ಆಯ್ಕೆ 👇</blockquote></b>"""
 
     I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
 
@@ -83,7 +83,7 @@ Nᴀᴍᴇ - {}
 
 3) ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ ᴅᴀᴛᴀʙᴀsᴇ ʀᴇᴘᴏʀᴛ ᴛᴏ ᴀᴅᴍɪɴs</b>"""
 
-    MVE_NT_FND = """<b>𝑻𝒉𝒊𝒔 𝑴𝒐𝒗𝒊𝒆 𝑵𝒐𝒕 𝑭𝒐𝒖𝒏𝒅 𝑰𝒏 𝑴𝒚 𝑫𝒂𝒕𝒂𝑩𝒂𝒔𝒆...😌\n\n<blockquote>यह 𝑴𝒐𝒗𝒊𝒆 मुझे मेरे 𝑫𝒂𝒕𝒂𝒃𝒂𝒔𝒆 में नहीं मिली...😌</blockquote></b>"""
+    MVE_NT_FND = """<b>𝑻𝒉𝒊𝒔 𝑴𝒐𝒗𝒊𝒆 𝑵𝒐𝒕 𝑭𝒐𝒖𝒏𝒅 𝑰𝒏 𝑴𝒚 𝑫𝒂𝒕𝒂𝑩𝒂𝒔𝒆...😌\n\n<blockquote>ನನ್ನ 𝑫𝒂𝒕𝒂𝒃𝒂𝒔𝒆...😌 ನನಗೆ ಇದನ್ನು ಹುಡುಕಲಾಗಲಿಲ್ಲ</blockquote></b>"""
     
 
     TOP_ALRT_MSG = """ꜱᴇᴀʀᴄʜɪɴɢ ꜰᴏʀ ǫᴜᴇʀʏ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
@@ -171,7 +171,7 @@ Nᴀᴍᴇ - {}
 
 ➢ QR Cᴏᴅᴇ : <a href='https://graph.org/file/e419f801841c2ee3db0fc.jpg'>𝑪𝑳𝑰𝑪𝑲 𝑯𝑬𝑹𝑬 𝑻𝑶 𝑺𝑪𝑨𝑵</a>
 
-➢ Uᴘɪ Iᴅ : <code>deendayaldhaked@ybl</code>
+➢ Uᴘɪ Iᴅ : <code>Pavan844@fam</code>
 
 ‼️ 𝑴𝒖𝒔𝒕 𝑺𝒆𝒏𝒅 𝑺𝒄𝒓𝒆𝒆𝒏𝒔𝒉𝒐𝒕 𝑨𝒇𝒕𝒆𝒓 𝑫𝒐𝒏𝒂𝒕𝒆.</b>"""
     
@@ -249,7 +249,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/Deendayal_dhakad">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/Deendayal_dhakad>[Deendayal_Dhakad]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/pkmovies4u">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/pkmovies4u>[pkmovies]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
@@ -268,7 +268,7 @@ Requested by : {message.from_user.mention}</b>"""
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
-🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.2 [ 𝐷𝑒𝑒𝑛𝑑𝑎𝑦𝑎𝑙_𝑑ℎ𝑎𝑘𝑎𝑑 ]</code>
+🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.2 [ pkmovies4u� ]</code>
 </b>"""
 
     LOGO = """
@@ -338,7 +338,7 @@ BOT WORKING PROPERLY"""
 ○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs
 ○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ
 
-👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/Sorry_Sorry_Galti_Ho_Gai'>Owner</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
+👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/pasci55'>Owner</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
 ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
@@ -394,7 +394,7 @@ BOT WORKING PROPERLY"""
 ⏰ ᴄᴜꜱᴛᴏᴍɪꜱᴇᴅ ᴅᴀʏꜱ
 💸 ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴅᴀʏꜱ ʏᴏᴜ ᴄʜᴏᴏꜱᴇ
 
-🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/Sorry_Sorry_Galti_Ho_Gai'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
+🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/pasci55'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
     
 👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴏᴛʜᴇʀ ᴘʟᴀɴ.
 
@@ -405,7 +405,7 @@ BOT WORKING PROPERLY"""
     
  ᴘᴀʏ ᴀᴍᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ !
 
-💵 ᴜᴘɪ ɪᴅ - <code>deendayaldhaked@ybl</code>
+💵 ᴜᴘɪ ɪᴅ - <code>Pavan844@fam</code>
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"""
 
@@ -433,7 +433,7 @@ BOT WORKING PROPERLY"""
 
 𝑺𝒆𝒍𝒆𝒄𝒕 𝒀𝒐𝒖𝒓 𝑷𝒂𝒚𝒎𝒆𝒏𝒕 𝑴𝒆𝒕𝒉𝒐𝒅.....
 
-𝑼𝑷𝑰 𝑰𝑫 👉 <code>deendayaldhaked@ybl</code>
+𝑼𝑷𝑰 𝑰𝑫 👉 <code>Pavan844@fam</code>
 
 𝑸𝑹 𝒄𝒐𝒅𝒆 👉 <a href='https://graph.org/file/e419f801841c2ee3db0fc.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a> 
 
